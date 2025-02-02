@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card-Based Data Collection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <button id="reset-btn">Reset</button>
+        <button id="upload-btn">Upload</button>
+    </header>
+    <main>
+        <div class="card-container">
+            <div class="card">
+                <input type="text" id="serial-number" placeholder="Serial Number">
+                <input type="text" id="location" placeholder="Location">
+                <textarea id="comment" placeholder="Comment"></textarea>
+                <input type="file" id="image-input" accept="image/*">
+               
+            </div>
+        </div>
+    </main>
+    <button id="add-card-btn">+</button>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
