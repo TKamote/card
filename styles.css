@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    position: relative; /* added this line */
 }
 
 header {
@@ -33,7 +34,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative; /* added this line */
+   
     padding-bottom: 50px; 
 }
 
@@ -52,14 +53,14 @@ main {
 
 .card input[type="text"],
 .card textarea {
-    width: 100%;
+    width: 90%;
     padding: 0.5rem;
     margin-bottom: 1rem;
     border: 1px solid #ccc;
 }
 
 .card input[type="file"] {
-    width: 100%;
+    width: 90%;
     padding: 0.5rem;
     margin-bottom: 1rem;
 }
@@ -76,8 +77,6 @@ main {
     font-size: 1rem;
     cursor: pointer;
 }
-
-
 .delete-btn {
     position: absolute;
     top: 0.5rem;
